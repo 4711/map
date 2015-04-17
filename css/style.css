@@ -1,0 +1,45 @@
+html {  
+  height: 100%;
+}
+
+body { 
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; 
+  background: url(http://www.jmchristensendesign.com/wp-content/themes/jmcdsn/images/intro_default-background.jpg); 
+  color: #fff; 
+  height: 100%; 
+  padding-top: 2em;
+}
+
+h1, h2{ margin: 0; text-shadow: 0 0 0.5em black;}
+
+h2 { font-weight: 300}
+
+
+
+.map {
+  opacity: 0.8;
+}
+
+.marker {
+  stroke: #6EA736;
+  stroke-width: 5;
+  fill: rgba(255,255,255,1);
+  radius: 55;
+}
+
+.delayed {
+  stroke: #CC522E;
+}
+
+.label {
+  fill: #fff; 
+  font-size: 16px;
+  font-color: red;
+  font-family: "mono";
+}
+
+
+.train {
+  width: 73;  
+}
+
