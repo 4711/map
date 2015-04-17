@@ -13,37 +13,33 @@
 </head>
 
 <body>
+<h1>Map</h1>
+<p></p>
 
-  <svg width="800" height="1300">
-
-  <image x="0" y="0" width="675" height="1231"
-     xlink:href="https://cloud.githubusercontent.com/assets/1145187/7198503/3f63ac34-e4ed-11e4-9cee-a8d785699d36.jpg" />
+<svg width="800" height="1300">
+<image class="map" x="0" y="0" width="675" height="1231"
+      xlink:href="https://cloud.githubusercontent.com/assets/1145187/7198503/3f63ac34-e4ed-11e4-9cee-a8d785699d36.jpg"
+  
+      />
 
 
   <g>
     <image x="155" y="400" width="73" height="17"
      xlink:href="https://cloud.githubusercontent.com/assets/1145187/7198502/3f634ff0-e4ed-11e4-8be2-2f04cf957ed7.png" />
-    <text x="180" y="415" 
-          style="fill: #fff; 
-          font-size: 16px">43600</text>
+    <text class="label" x="180" y="415">43600</text>
   </g>
 
   <g>
-    <image x="140" y="360" width="73" height="17"
-     xlink:href="https://cloud.githubusercontent.com/assets/1145187/7198903/8b25fe3a-e4f0-11e4-8196-218328124fbe.png" />
-    <text x="147" y="375" 
-          style="fill: #fff; 
-          font-size: 16px">43753</text>
+    <image class="train" x="140" y="360" height="17" width="73" 
+ xlink:href="https://cloud.githubusercontent.com/assets/1145187/7198903/8b25fe3a-e4f0-11e4-8196-218328124fbe.png" />
+    
+    <text class="label" x="147" y="375">43753</text>
   </g>
 
 
-  <circle cx="353" cy="360" r="5.5"
-          style="stroke: #6EA736; stroke-width: 5; fill: #fff" />
+  <circle cx="353" cy="360" r="6" class="marker" />
+  <circle cx="403" cy="460" r="6" class="marker delayed" />
 </svg>
-
-  <script>
-  </script>
-
 </body>
 
 </html>
