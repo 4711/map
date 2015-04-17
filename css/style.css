@@ -4,7 +4,9 @@ html {
 
 body { 
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; 
-  background: url(http://www.jmchristensendesign.com/wp-content/themes/jmcdsn/images/intro_default-background.jpg); 
+  /*background: url(http://www.jmchristensendesign.com/wp-content/themes/jmcdsn/images/intro_default-background.jpg); */
+  background: url(https://cloud.githubusercontent.com/assets/1145187/7201414/15c357e8-e507-11e4-999c-4e84660d6c70.png); 
+  
   color: #fff; 
   height: 100%; 
   padding-top: 2em;
