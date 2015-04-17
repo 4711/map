@@ -40,7 +40,7 @@ h2 { font-weight: 300}
   fill: #fff; 
   font-size: 16px;
   font-color: red;
-  font-family: "mono";
+  font-family: 'Andale Mono', AndaleMono, monospace;
 }
 
 
