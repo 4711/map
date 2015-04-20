@@ -40,7 +40,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-d3.json("ch.json", function(error, ch) {
+d3.json("data/ch.json", function(error, ch) {
   svg.append("g")
       .attr("class", "feature feature--canton")
     .selectAll("path")
